@@ -1,0 +1,210 @@
+body {
+  background-color: #f5f6f7;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+
+/* links */
+
+a {
+    font-weight: 700;
+    color: #393939;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec6803;
+  }
+
+/* navbar */
+
+.navbar {
+  width: 100%;
+  height: 48px;
+  background: #fff;
+  border-top: 3px solid #ec6803;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+.logo {
+  height: 34px;
+  width: 64px;
+  margin: 5px 15px;
+  float: left;
+}
+
+.grafika {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:300;
+display: inline-block;
+margin-top: 10px;
+color: #9da4a9;
+letter-spacing: 1px;
+}
+
+.facebook-logo {
+  color: #9da4a9;
+  margin: 8px 15px;
+  float: right;
+}
+
+
+/* intro video title */
+
+.video-container {
+  overflow: hidden;
+  display: block;
+  height: 100vh;
+  max-height: 900px;
+  background-color: black;
+}
+
+video {
+  object-fit: cover;
+  top: 0;
+  left: 0%;
+  width: 100vw;
+    height: 100vh;
+    max-height: 900px;
+position: absolute;
+  opacity: 0.5;
+}
+
+.main-title {
+  top: 200px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+  text-shadow: 0px 0px 5px black;
+}
+
+.title-container {
+  max-width: 750px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.subheader {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* intro */
+
+.intro {
+    margin: 15px auto 0px auto;
+    max-width: 650px;
+    padding: 0 20px;
+}
+
+.author {
+  line-height: 1.2em;
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+.author-item {
+    margin: 10px 0;
+}
+ 
+.date {
+    text-transform: uppercase;
+    font-size: 11px;
+    margin: 20px 0px;
+}
+
+.intro-text {
+    color: #7c858d;
+    font-weight: 600;
+}
+
+/* article */
+
+.article {
+  margin: 70px auto 0px auto;
+  max-width: 650px;
+  padding: 0 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  line-height: 2rem;
+
+  font-weight: 300;
+  display: block;
+  color: #4d4d4d;
+}
+
+/* footer */
+
+.footergeneral {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .source {
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+    font-size: 12px;
+    max-width: 650px;
+  }  
+    
+  .RFE {
+    font-weight: 700;
+    margin: 10px auto 0px auto;
+    text-align: center;
+    font-size: 14px;
+  }
+ 
+  .date-footer {
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+    font-size: 12px;
+    max-width: 650px;
+  }
+  
+ 
+  .logo-footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 600px){
+    h1 {
+        font-size: 2.1rem;
+    }
+    .subheader {
+        font-size: 1rem;
+     
+      }
+  }
