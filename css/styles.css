@@ -88,7 +88,7 @@ position: absolute;
 }
 
 .main-title {
-  top: 200px;
+  top: 30%;
   position: absolute;
   z-index: 1;
   text-align: center;
